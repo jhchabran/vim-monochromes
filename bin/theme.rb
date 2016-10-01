@@ -17,7 +17,7 @@ class Theme
 " Maintainer: Jean-Hadrien Chabran <jh@chabran.fr>
 " License:    MIT
 
-set background=dark
+set background=#{background}
 
 hi clear
 if exists('syntax_on')

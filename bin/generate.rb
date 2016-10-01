@@ -4,11 +4,28 @@ require './theme'
 
 variants = {
   dark: {
+    background: "dark",
     name: "monochrome-dark",
+
     white:    { gui: 'White', cterm: 15 },
     black:    { gui: 'Black', cterm: 16 },
     bgray:    { gui: '#202020', cterm: 234 },
     lgray:    { gui: 'LightGray', cterm: 252 },
+    cgray:    { gui: '#737373', cterm: 243 },
+    dgray:    { gui: 'DarkGray', cterm: 248 },
+    color:    { gui: '#778899', cterm: 67 },
+    green:    { gui: '#859900', cterm: 64 },
+    red:      { gui: '#dc322f', cterm: 160 },
+    contrast: { gui: 'Yellow', cterm: 208 }
+  },
+  light: {
+    background: "light",
+    name: "monochrome-dark",
+
+    white:    { gui: 'White', cterm: 16 },
+    black:    { gui: 'Black', cterm: 15 },
+    lgray:    { gui: '#202020', cterm: 234 },
+    bgray:    { gui: 'LightGray', cterm: 252 },
     cgray:    { gui: '#737373', cterm: 243 },
     dgray:    { gui: 'DarkGray', cterm: 248 },
     color:    { gui: '#778899', cterm: 67 },
