@@ -20,7 +20,7 @@ variants = {
   },
   light: {
     background: "light",
-    name: "monochrome-dark",
+    name: "monochrome-light",
 
     white:    { gui: 'White', cterm: 16 },
     black:    { gui: 'Black', cterm: 15 },
