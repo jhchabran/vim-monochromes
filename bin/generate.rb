@@ -23,9 +23,9 @@ variants = {
     name: "monochrome-light",
 
     white:    { gui: 'White', cterm: 16 },
-    black:    { gui: 'Black', cterm: 15 },
+    black:    { gui: 'Black', cterm: 252 },
     lgray:    { gui: '#202020', cterm: 234 },
-    bgray:    { gui: 'LightGray', cterm: 252 },
+    bgray:    { gui: 'LightGray', cterm: 15 },
     cgray:    { gui: '#737373', cterm: 243 },
     dgray:    { gui: 'DarkGray', cterm: 248 },
     color:    { gui: '#778899', cterm: 67 },
