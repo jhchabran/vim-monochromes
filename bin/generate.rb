@@ -32,7 +32,22 @@ variants = {
     green:    { gui: '#859900', cterm: 64 },
     red:      { gui: '#dc322f', cterm: 160 },
     contrast: { gui: 'Yellow', cterm: 208 }
-  }
+  },
+  solarized_dark: {
+    background: "dark",
+    name: "monochrome-solarized-dark",
+
+    white:    { gui: '#ffffd7', cterm: 15 },
+    black:    { gui: '#1c1c1c', cterm: 0 },
+    bgray:    { gui: '#202020', cterm: 8 },
+    lgray:    { gui: '#ffffd7', cterm: 15 },
+    cgray:    { gui: '#8a8a8a', cterm: 14 },
+    dgray:    { gui: 'DarkGray', cterm: 248 },
+    color:    { gui: '#778899', cterm: 67 },
+    green:    { gui: '#859900', cterm: 64 },
+    red:      { gui: '#dc322f', cterm: 160 },
+    contrast: { gui: 'Yellow', cterm: 208 }
+  },
 }
 
 v = Theme.new(variants[ARGV[0].to_sym])
